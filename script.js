@@ -1,5 +1,30 @@
 const sideMenu = document.getElementById("sideMenu");
 
+// Add brief visual feedback when phone/email are clicked (mouse or keyboard)
+document.addEventListener("DOMContentLoaded", () => {
+  ["contact-phone-number", "contact-email-address"].forEach((id) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    const clear = () => el.classList.remove("is-clicked");
+
+    el.addEventListener("click", () => {
+      el.classList.add("is-clicked");
+      setTimeout(clear, 350);
+    });
+
+    el.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        el.classList.add("is-clicked");
+        setTimeout(clear, 350);
+      }
+    });
+
+    el.addEventListener("blur", clear);
+    el.addEventListener("mouseup", clear);
+    el.addEventListener("touchend", clear);
+  });
+});
+
 const translations = {
   en: {
     "site-title": "Land Office",
@@ -193,8 +218,7 @@ const translations = {
     "vacancy-placeholder": "There are no open vacancies at this time.",
     "kebele-experts-title": "Kebele",
     // MANUALS & FORMS
-    "manuals-title":
-      "Rural Land Proclamation and Regulation Manuals",
+    "manuals-title": "Rural Land Proclamation and Regulation Manuals",
     "manuals-desc":
       "You can download the proclamation and regulation files as PDFs from here:",
     "manual-1-link": "Rural Land Proclamation No. 252/2009",
@@ -248,19 +272,19 @@ const translations = {
     "nav-contact": "ያግኙን",
     "hero-title-1": "እንኳን ወደ ወረባቦ ወረዳ መሬት ጽ/ቤት ድህረ ገጽ በሰላም መጡ!",
     "hero-desc-1":
-      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግሰታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢሰቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ተቋም ነው::",
+      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግስታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢስቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ነው።",
     "hero-title-2": "እንኳን ወደ ወረባቦ ወረዳ መሬት ጽ/ቤት ድህረ ገጽ በሰላም መጡ!",
     "hero-desc-2":
-      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግሰታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢሰቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ተቋም ነው::",
+      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግስታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢስቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ነው።",
     "hero-title-3": "እንኳን ወደ ወረባቦ ወረዳ መሬት ጽ/ቤት ድህረ ገጽ በሰላም መጡ!",
     "hero-desc-3":
-      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግሰታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢሰቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ተቋም ነው::",
+      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግስታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢስቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ  ነው።",
     "hero-title-4": "እንኳን ወደ ወረባቦ ወረዳ መሬት ጽ/ቤት ድህረ ገጽ በሰላም መጡ!",
     "hero-desc-4":
-      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግሰታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢሰቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ተቋም ነው::",
+      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግስታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢስቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ነው።",
     "hero-title-5": "እንኳን ወደ ወረባቦ ወረዳ መሬት ጽ/ቤት ድህረ ገጽ በሰላም መጡ!",
     "hero-desc-5":
-      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግሰታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢሰቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ተቋም ነው::",
+      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግስታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢስቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ነው።",
 
     "vision-title": "ራዕይ፣ተልዕኮ እና እሴቶች",
     // VISION CONTENT
@@ -705,27 +729,3 @@ form.addEventListener("submit", (e) => {
       submitButton.disabled = false;
     });
 });
-
-  Object.keys(translationData).forEach(function (key) {
-    const elementsById = document.querySelectorAll(`#${key}`);
-    if (elementsById.length > 0) {
-      elementsById.forEach(function (el) {
-        el.innerHTML = translationData[key];
-
-        // If the element is the phone or email anchor, also update its href
-        if (key === "contact-phone-number") {
-          // normalize phone number to digits and leading +
-          const phone = translationData[key].replace(/[^\d+]/g, "");
-          if (el.tagName && el.tagName.toLowerCase() === "a") {
-            el.setAttribute("href", `tel:${phone}`);
-          }
-        }
-        if (key === "contact-email-address") {
-          const email = translationData[key].trim();
-          if (el.tagName && el.tagName.toLowerCase() === "a") {
-            el.setAttribute("href", `mailto:${email}`);
-          }
-        }
-      });
-    }
-  });

@@ -274,7 +274,7 @@ nav ul li.dropdown {
 }
 
 #hero-desc-1, #hero-desc-2, #hero-desc-3, #hero-desc-4, #hero-desc-5 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   max-width: 700px;
   margin-left: auto;
@@ -765,7 +765,38 @@ nav ul li.dropdown {
   background: #0d2c6e;
   transform: translateY(-2px);
 }
+/* phone & email clickable + hover / click feedback */
+a#contact-phone-number,
+a#contact-email-address {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 8px;
+  color: var(--link-color);
+  text-decoration: none;
+  transition: transform 150ms ease, box-shadow 150ms ease, background 150ms ease, color 150ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
 
+a#contact-phone-number:hover,
+a#contact-email-address:hover,
+a#contact-phone-number:focus,
+a#contact-email-address:focus,
+a#contact-phone-number:active,
+a#contact-email-address:active,
+a#contact-phone-number.is-clicked,
+a#contact-email-address.is-clicked {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(26, 62, 139, 0.12);
+  color: #fff;
+  background: var(--primary-color);
+  text-decoration: none;
+  outline: none;
+}
+/* ensure visible keyboard focus */
+a#contact-phone-number:focus,
+a#contact-email-address:focus {
+  box-shadow: 0 0 0 3px rgba(26, 62, 139, 0.12), 0 8px 20px rgba(26, 62, 139, 0.08);
+}
 /* Generic Sections */
 #vision,
 #power,
