@@ -102,9 +102,9 @@ const translations = {
     "whoiswho-expert-name-15": "Endris Abebe",
     "whoiswho-expert-role-15": "Architectural Expert",
     "whoiswho-expert-name-16": "Toyba Ahmed",
-    "whoiswho-expert-role-16": "Survey and Map Preparation Technician 1",
+    "whoiswho-expert-role-16": "Surveyor-1",
     "whoiswho-expert-name-17": "Getachew Ayalew",
-    "whoiswho-expert-role-17": "Survey and Map Preparation Technician 2",
+    "whoiswho-expert-role-17": "Surveyor-2",
     "whoiswho-team-4-title": "Land Administration",
     "whoiswho-team-leader-name-4": "Hussein Mohamed",
     "whoiswho-team-leader-role-4": "Land Administration Team Leader",
@@ -137,7 +137,7 @@ const translations = {
     "whoiswho-expert-name-31": "Ousman Ahmed",
     "whoiswho-expert-role-31": "010 Kebele Land Expert",
     "whoiswho-expert-name-32": "Mohammed Seid",
-    "whoiswho-expert-role-32": "011 KebeleLand  Expert",
+    "whoiswho-expert-role-32": "011 Kebele Land Expert",
     "whoiswho-expert-name-33": "Medina Yesuf",
     "whoiswho-expert-role-33": "012 Kebele Land Expert",
     "whoiswho-expert-name-34": "Ali Mohammed",
@@ -165,7 +165,7 @@ const translations = {
     "power-duty3": "Resolve land disputes.",
     "power-duty4":
       "Ensure proper compensation is paid to displaced persons for development projects.",
-    "power-duty5": "Enforce land proclamations and regulations.",
+    "power-duty5": "Implement land proclamations and regulations.",
     "power-duty6":
       "Ensure farmers use land according to the land use plan, among others.",
     // ORGANIZATIONAL STRUCTURE
@@ -194,18 +194,18 @@ const translations = {
     "kebele-experts-title": "Kebele",
     // MANUALS & FORMS
     "manuals-title":
-      "Amhara Region Rural Land Proclamation and Regulation Manuals",
+      "Rural Land Proclamation and Regulation Manuals",
     "manuals-desc":
-      "You can download the full proclamation and regulation files here:-",
-    "manual-1-link": "Amhara Region Rural Land Proclamation No. 252/2009 (PDF)",
-    "manual-2-link": "Land Administration Regulation (PDF)",
+      "You can download the proclamation and regulation files as PDFs from here:",
+    "manual-1-link": "Rural Land Proclamation No. 252/2009",
+    "manual-2-link": "Land Administration Regulation",
     "forms-title": "Various Rural Land Forms",
-    "forms-desc": "Please! You can download the forms from here as needed:-",
-    "form-1-link": "Land Inheritance Form (PDF)",
-    "form-2-link": "Temporal Certificate Form (PDF)",
-    "form-3-link": "Land Gift Form (PDF)",
-    "form-4-link": "Land Rental Form (PDF)",
-    "form-5-link": "Land Consolidation Form (PDF)",
+    "forms-desc": "You can download the forms here as PDFs:",
+    "form-1-link": "Land Inheritance Form",
+    "form-2-link": "Temporal Certificate Form",
+    "form-3-link": "Land Gift Form",
+    "form-4-link": "Land Rental Form",
+    "form-5-link": "Land Consolidation Form",
     // CONTACT
     "contact-title": "Contact Us",
     "contact-phone-title": "Phone",
@@ -216,7 +216,7 @@ const translations = {
     "contact-email-address": "hassbaabo@gmail.com",
     "contact-location-title": "Location",
     "contact-location-desc":
-      "Inside the Werababo Woreda Agriculture Office Compound",
+      "Inside the Werababo Woreda Agriculture Office Compound.",
     "contact-location-link": "View on Map",
     "contact-form-title": "Send us a Message!", // This ID is on the h3
     "contact-form-name": "Name", // This ID is on the label
@@ -227,11 +227,11 @@ const translations = {
     "contact-social-title": "Social Media",
     "form-success-msg": "Message Sent Successfully",
     "form-error-msg": "Error! Message not sent.",
-    "footer-copyright": "&copy; 2017 Werebabo Woreda Land Office",
+    "footer-copyright": "&copy; 2018 Werebabo Woreda Land Office",
   },
   am: {
-    "site-title": "መሬት ጽህፈት ቤት",
-    "office-name": "የወረባቦ ወረዳ መሬት ጽህፈት ቤት",
+    "site-title": "መሬት ጽ/ቤት",
+    "office-name": "የወረባቦ ወረዳ መሬት ጽ/ቤት",
     "office-country": "ደቡብ ወሎ ኢትዮጵያ",
     "nav-home": "መነሻ",
     "nav-about": "ስለኛ",
@@ -246,27 +246,27 @@ const translations = {
     "nav-news": "ዜና",
     "nav-vacancy": "ቅጥር",
     "nav-contact": "ያግኙን",
-    "hero-title-1": "እንኳን በሰላም ወደ ወረባቦ ወረዳ መሬት ጽህፈት ቤት ድህረ ገጽ መጡ!",
+    "hero-title-1": "እንኳን ወደ ወረባቦ ወረዳ መሬት ጽ/ቤት ድህረ ገጽ በሰላም መጡ!",
     "hero-desc-1":
-      "የወረባቦ ወረዳ መሬት ጽህፈት ቤት መንግሰታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢሰቲማ ከተማ ግብርና ጽህፈት ቤት ግቢ ውስጥ የሚገኝ ተቋም ነው!",
-    "hero-title-2": "እንኳን በሰላም ወደ ወረባቦ ወረዳ መሬት ጽህፈት ቤት ድህረ ገጽ መጡ!",
+      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግሰታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢሰቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ተቋም ነው::",
+    "hero-title-2": "እንኳን ወደ ወረባቦ ወረዳ መሬት ጽ/ቤት ድህረ ገጽ በሰላም መጡ!",
     "hero-desc-2":
-      "የወረባቦ ወረዳ መሬት ጽህፈት ቤት መንግሰታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢሰቲማ ከተማ ግብርና ጽህፈት ቤት ግቢ ውስጥ የሚገኝ ተቋም ነው!",
-    "hero-title-3": "እንኳን በሰላም ወደ ወረባቦ ወረዳ መሬት ጽህፈት ቤት ድህረ ገጽ መጡ!",
+      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግሰታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢሰቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ተቋም ነው::",
+    "hero-title-3": "እንኳን ወደ ወረባቦ ወረዳ መሬት ጽ/ቤት ድህረ ገጽ በሰላም መጡ!",
     "hero-desc-3":
-      "የወረባቦ ወረዳ መሬት ጽህፈት ቤት መንግሰታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢሰቲማ ከተማ ግብርና ጽህፈት ቤት ግቢ ውስጥ የሚገኝ ተቋም ነው!",
-    "hero-title-4": "እንኳን በሰላም ወደ ወረባቦ ወረዳ መሬት ጽህፈት ቤት ድህረ ገጽ መጡ!",
+      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግሰታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢሰቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ተቋም ነው::",
+    "hero-title-4": "እንኳን ወደ ወረባቦ ወረዳ መሬት ጽ/ቤት ድህረ ገጽ በሰላም መጡ!",
     "hero-desc-4":
-      "የወረባቦ ወረዳ መሬት ጽህፈት ቤት መንግሰታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢሰቲማ ከተማ ግብርና ጽህፈት ቤት ግቢ ውስጥ የሚገኝ ተቋም ነው!",
-    "hero-title-5": "እንኳን በሰላም ወደ ወረባቦ ወረዳ መሬት ጽህፈት ቤት ድህረ ገጽ መጡ!",
+      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግሰታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢሰቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ተቋም ነው::",
+    "hero-title-5": "እንኳን ወደ ወረባቦ ወረዳ መሬት ጽ/ቤት ድህረ ገጽ በሰላም መጡ!",
     "hero-desc-5":
-      "የወረባቦ ወረዳ መሬት ጽህፈት ቤት መንግሰታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢሰቲማ ከተማ ግብርና ጽህፈት ቤት ግቢ ውስጥ የሚገኝ ተቋም ነው!",
+      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግሰታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢሰቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ተቋም ነው::",
 
     "vision-title": "ራዕይ፣ተልዕኮ እና እሴቶች",
     // VISION CONTENT
     "vision-heading": "ራዕይ",
     "vision-text":
-      "በ2022 በወረዳው ዘላቂ የመሬት አስተዳደር ስርዓት በመገንባት የወረዳው ህዝብ በውጤቱ ተጠቃሚ ሆኖ ማየት",
+      "በ2022 በወረዳው ዘላቂ የመሬት አስተዳደር ስርዓት በመገንባት የወረዳው ህዝብ በውጤቱ ተጠቃሚ ሆኖ ማየት!",
     "mission-heading": "ተልዕኮ",
     "mission-text":
       "የወረዳውን የመሬት ሀብት ዘመናዊና ሳይንሳዊ በሆነ መንገድ በመመዝገብ፣የባለቤትነት መብት በማረጋገጥ፣አጠቃቀሙን በመወሰንና የመሬት መረጃ ስርዓት በመገንባት ዘላቂነት ያለው የኢኮኖሚና ማህበራዊ እድገት ማረጋገጥ!",
@@ -283,7 +283,7 @@ const translations = {
     // WHO IS WHO
     "whoiswho-title": "ማን ምንድነው",
     "whoiswho-intro":
-      "ይህ ክፍል የወረባቦ ወረዳ የመሬት ጽሕፈት ቤት ቁልፍ ሠራተኞችና ቡድኖችን በተመለከተ መረጃ ያቀርባል፤ከነዚህም መካከል ኃላፊው፣ ቡድኖቹ፣ ባለሙያዎቹ እና የገጠር ቀበሌ የመሬት ባለሙያዎች ይገኙበታል።",
+      "ይህ ክፍል የወረባቦ ወረዳ የመሬት ጽ/ቤት ቁልፍ ሠራተኞችና ቡድኖችን በተመለከተ መረጃ ይዟል፤ከነዚህም መካከል ኃላፊው፣ ቡድኖቹ፣ ባለሙያዎቹ እና የገጠር ቀበሌ የመሬት ባለሙያዎች ይገኙበታል።",
     "whoiswho-head-title": "ኃላፊ",
     "whoiswho-kebele-title": "ቀበሌዎች",
     "whoiswho-team-title": "ቡድኖች",
@@ -293,7 +293,7 @@ const translations = {
     "whoiswho-expert-role-1": "የእቅድና በጀት ዝግጅት ባለሙያ",
     "whoiswho-expert-name-2": "አዚዛ ጉግሳ",
     "whoiswho-expert-role-2": "የጽ/ፈትና ቢሮ አስተዳደር ባለሙያ",
-    "whoiswho-team-1-title": "የመሬት አጠቃቀም",
+    "whoiswho-team-1-title": "መሬት አጠቃቀም",
     "whoiswho-team-leader-name-1": "መሀመድ አህመድ",
     "whoiswho-team-leader-role-1": "የመሬት አጠቃቀም ቡድን መሪ",
     "whoiswho-expert-name-3": "በሽር አወል",
@@ -312,7 +312,7 @@ const translations = {
     "whoiswho-expert-role-9": "የመሬት አጠቃቀም ቡድን ጸሃፊ",
     "whoiswho-expert-name-10": "ሁሴን የሱፍ",
     "whoiswho-expert-role-10": "የእንስሳትና መኖ ልማት ባለሙያ",
-    "whoiswho-team-2-title": "የመሬት ሀብት ዋጋ ትመና እና ካሳ",
+    "whoiswho-team-2-title": "መሬት ሀብት ዋጋ ትመና",
     "whoiswho-team-leader-name-2": "አንሻ ሰይድ",
     "whoiswho-team-leader-role-2": "የመሬት ዋጋ ሀብት ትመና ቡድን መሪ",
     "whoiswho-expert-name-11": "ፈንታው ከበደ",
@@ -323,16 +323,16 @@ const translations = {
     "whoiswho-expert-role-13": "ግ/ነክያ/ የኑሮአማ/ዝ/ ክ/ድጋፍ ባለሙያ",
     "whoiswho-expert-name-14": "ሱለይማን ሞላ",
     "whoiswho-expert-role-14": "የመሬት ዋጋ ትመና ና ካሳ ባለሙያ",
-    "whoiswho-team-3-title": "የገጠር መሬት መሰረተ ልማት ደዛይን ዝግጅት",
+    "whoiswho-team-3-title": "መሰረተ ልማት",
     "whoiswho-team-leader-name-3": "ኤርሚያስ አራጌ",
     "whoiswho-team-leader-role-3": "የመሬት መሰረተ ልማት ድዛይን ዝግጅት ቡድን መሪ",
     "whoiswho-expert-name-15": "እንድሪስ አበበ",
     "whoiswho-expert-role-15": "የስነ-ህንጻ ባለሙያ",
     "whoiswho-expert-name-16": "ጦይባ አህመድ",
-    "whoiswho-expert-role-16": "የቅየሳ እና ካርታ ዝግጅት ሰራተኛ 1",
+    "whoiswho-expert-role-16": "የቅየሳ ባለሙያ-1",
     "whoiswho-expert-name-17": "ጌታቸው አያሌው",
-    "whoiswho-expert-role-17": "የቅየሳ እና ካርታ ዝግጅት ሰራተኛ 2",
-    "whoiswho-team-4-title": "የመሬት አስተዳደር",
+    "whoiswho-expert-role-17": "የቅየሳ ባለሙያ-2",
+    "whoiswho-team-4-title": "መሬት አስተዳደር",
     "whoiswho-team-leader-name-4": "ሁሴን መሀመድ",
     "whoiswho-team-leader-role-4": "የመሬት አስተዳደር ቡድን መሪ",
     "whoiswho-expert-name-18": "መኮነን መንግስቴ",
@@ -386,12 +386,12 @@ const translations = {
     "power-title": "ስልጣን እና ተግባር",
     "see-more": "ተጨማሪ ይመልከቱ",
     "see-less": "በትንሽ ይመልከቱ",
-    "power-duty1": "በወረዳው የሁለተኛ ደረጃ የይዞታ ማረጋገጫ ካርታ በማዘጋጀት አርሶ አደሩን ተጠቃሚ ማድረግ",
-    "power-duty2": "አርሶ አደሩበፈቃደኝነት ወደ ቀበሌ ማዕከል እንዲሰባሰብ ማድረግ",
+    "power-duty1": "በወረዳው የሁለተኛ ደረጃ የይዞታ ማረጋገጫ ካርታ በማዘጋጀት አርሶ አደሩን ተጠቃሚ ማድረግ፣",
+    "power-duty2": "አርሶ አደሩ በፈቃደኝነት ወደ ቀበሌ ማዕከል እንዲሰባሰብ ማድረግ፣",
     "power-duty3": "የመሬት ግጭቶችን መፍታት፣",
-    "power-duty4": "ለልማት ተነሽዎች ተገቢው ካሳ እንዲከፈላቸው ማድረግ",
-    "power-duty5": "የመሬት አዋጆችን እና ደንቦችን ማሰተግበር",
-    "power-duty6": "አርሶ አደሩ በመሬት አጠቃቀም ዕቅዱ መሰረት እንዲጠቀም ማድረግ እና የመሳሰሉት ይገኙበታል",
+    "power-duty4": "ለልማት ተነሽዎች ተገቢው ካሳ እንዲከፈላቸው ማድረግ፣",
+    "power-duty5": "የመሬት አዋጆችን እና ደንቦችን ማሰተግበር፣",
+    "power-duty6": "አርሶ አደሩ በመሬት አጠቃቀም ዕቅዱ መሰረት እንዲጠቀም ማድረግ እና የመሳሰሉት ይገኙበታል፣",
     // ORGANIZATIONAL STRUCTURE
     "structure-title": "የተቋሙ አደረጃጀት",
     "head-title": "ሀላፊ",
@@ -417,17 +417,17 @@ const translations = {
     "vacancy-placeholder": "በአሁኑ ሰዓት ምንም ክፍት የሥራ ቦታ የለም።",
     "kebele-experts-title": "ቀበሌ",
     // MANUALS & FORMS
-    "manuals-title": "የአማራ ክልል ገጠር መሬት አዋጅና ደንብ ማኑዋሎች",
-    "manuals-desc": "ሙሉ የአዋጅና ደንብ ፋይሉን ከዚህ ማውረድ ይችላሉ:-",
-    "manual-1-link": "የአማራ ክልል ገጠር መሬት አዋጅ ቁጥር 252/2009(PDF)",
-    "manual-2-link": "የመሬት አስተዳደር ደንብ (PDF)",
+    "manuals-title": "የገጠር መሬት አዋጅና ደንብ ማኑዋሎች",
+    "manuals-desc": "የአዋጅና ደንብ ፋይሉን በ ፒ ዲ ኤፍ ከዚህ ማውረድ ይችላሉ:-",
+    "manual-1-link": "የገጠር መሬት አዋጅ ቁጥር 252/2009",
+    "manual-2-link": "የመሬት አስተዳደር ደንብ",
     "forms-title": "የተለያዩ የገጠር መሬት ቅጾች",
-    "forms-desc": "እባክዎትን!እንደ አስፈላጊነቱ ቅጾቹን ከዚህ ማውረድ ይችላሉ:-",
-    "form-1-link": "የመሬት ውርስ ቅጽ (PDF)",
-    "form-2-link": "የጊዜያዊ ሰርቲፊኬት ቅጽ (PDF)",
-    "form-3-link": "የመሬት ስጦታ ቅጽ(PDF)",
-    "form-4-link": "የመሬት ኪራይ ቅጽ(PDF)",
-    "form-5-link": "ማሳን ኩታገጠም ማድረጊያ ቅጽ (PDF)",
+    "forms-desc": "ቅጾቹን በ ፒ ዲ ኤፍ ከዚህ ማውረድ ይችላሉ:-",
+    "form-1-link": "የመሬት ውርስ ቅጽ",
+    "form-2-link": "የጊዜያዊ ሰርቲፊኬት ቅጽ",
+    "form-3-link": "የመሬት ስጦታ ቅጽ",
+    "form-4-link": "የመሬት ኪራይ ቅጽ",
+    "form-5-link": "ማሳን ኩታገጠም ማድረጊያ ቅጽ",
     // CONTACT
     "contact-title": "ያግኙን",
     "contact-phone-title": "ስልክ",
@@ -448,7 +448,7 @@ const translations = {
     "contact-social-title": "ሶሻል ሚዲያ",
     "form-success-msg": "መልዕክቱ በተሳካ ሁኔታ ተልኳል",
     "form-error-msg": "ስህተት! መልዕክቱ አልተላከም።",
-    "footer-copyright": "&copy; 2017 የወረባቦ ወረዳ መሬት ጽህፈት ቤት",
+    "footer-copyright": "&copy; 2018 የወረባቦ ወረዳ መሬት ጽ/ቤት",
   },
 };
 
@@ -705,3 +705,27 @@ form.addEventListener("submit", (e) => {
       submitButton.disabled = false;
     });
 });
+
+  Object.keys(translationData).forEach(function (key) {
+    const elementsById = document.querySelectorAll(`#${key}`);
+    if (elementsById.length > 0) {
+      elementsById.forEach(function (el) {
+        el.innerHTML = translationData[key];
+
+        // If the element is the phone or email anchor, also update its href
+        if (key === "contact-phone-number") {
+          // normalize phone number to digits and leading +
+          const phone = translationData[key].replace(/[^\d+]/g, "");
+          if (el.tagName && el.tagName.toLowerCase() === "a") {
+            el.setAttribute("href", `tel:${phone}`);
+          }
+        }
+        if (key === "contact-email-address") {
+          const email = translationData[key].trim();
+          if (el.tagName && el.tagName.toLowerCase() === "a") {
+            el.setAttribute("href", `mailto:${email}`);
+          }
+        }
+      });
+    }
+  });
