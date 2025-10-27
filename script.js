@@ -216,16 +216,16 @@ const translations = {
     "kebele-all-landholde": "Land Holders",
     "news-title": "News",
     "news-article-1-title":
-      "In 2017 fiscal year,8,290 Landholders Receive Second-Level Land Certificates",
+      "In 2017 fiscal year,8290 Landholders Receive Second-Level Land Certificates",
     "news-location": "Bistima",
     "news-date": "September 29, 2018",
     "news-source": "Werebabo Woreda Land Office",
     "news-p1":
-      "The Werebabo Woreda Land Office has announced that a total of 8,290 landholders have successfully received second-level land certificates.",
+      "Werebabo Woreda Land Office has announced that a total of 8,290 landholders have successfully received second-level land certificates.",
     "news-p2":
-      "Bistima - September 29, 2018,The Werebabo Woreda Land Office recently convened a forum to present its budget plan for the 2018 fiscal year and to assess the performance of the 2017 budget year.",
+      "Werebabo Woreda Land Office recently convened a forum to present its budget plan for the 2018 fiscal year and to assess the performance of the 2017 budget year.",
     "news-p3":
-      "During this forum, it was reported that the office had established a target to distribute second-level landholding certificates to 5,828 landholders for the 2017 budget year. This initiative included the measurement of plots, the digitization of data, and the distribution of land certificates to landholders. The office surpassed its initial target by distributing certificates to 8,290 individuals.",
+      "During this forum, it was reported that the office had established a target to distribute second-level landholding certificates to 5,828 landholders for the 2017 budget year. This initiative included the measurement of plots, the digitization of data,and the distribution of land certificates to landholders. The office surpassed its initial target by distributing certificates to 8,290 individuals.",
     "news-p4":
       "Furthermore, the forum addressed the critical issue of preventing illegal land encroachments. It was noted that 198.7 hectares of land were successfully reclaimed from 308 illegal encroachers. Despite the current security challenges that have been exploited for unlawful land grabbing, the office reaffirmed its commitment to holding all perpetrators accountable. Appropriate legal measures will be enforced once stability is restored.",
     "news-p5":
@@ -465,7 +465,7 @@ const translations = {
     "news-p1":
       "የወረባቦ ወረዳ መሬት ጽ/ቤት ለ8290 ባለይዞታዎች ሁለተኛ የይዞታ ማረጋገጫ ካርታ ስርጭት ማድረግ መቻሉን ገለፀ።",
     "news-p2":
-      "ቢስቲማ- መስከረም 29/2018,የወረባቦ ወረዳ መሬት ጽ/ቤት የ2017 በጀት ዓመት ዕቅድ አፈጻጸምና የ2018 በጀት ዓመት ዕቅድ ትውውቅ መድረክ አካሂዷል።",
+      "የወረባቦ ወረዳ መሬት ጽ/ቤት የ2017 በጀት ዓመት ዕቅድ አፈጻጸምና የ2018 በጀት ዓመት ዕቅድ ትውውቅ መድረክ አካሂዷል።",
     "news-p3":
       "በመድረኩ የመሬት ባለይዞታዎች የሁለተኛ የይዞታ ማረጋገጫ ካርታ ልኬታ፣ መረጃውን ድጅታላይዜሽን ማድረግ፣ እንድሁም ካርታውን ለባለ ይዞታዎች ስርጭት ማድረግ ስራዎችን በ2017 በጀት ለ5828 ባለ ይዞታዎች ሁለተኛ የይዞታ ማረጋገጫ ካርታ ስርጭት ለማድረግ ታቅዶ 8290 ስርጭት ማድረጉ ተገጿል።",
     "news-p4":
