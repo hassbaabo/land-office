@@ -46,17 +46,11 @@ const translations = {
     "hero-title-1": "Welcome to Werebabo Wereda Land Office's Website!",
     "hero-desc-1":
       "Werebabo Wereda Land Office is a governmental institution situated in Bistima town, Werebabo Wereda, and is co-located within the premises of the Wereda's Agricultural Office.",
-    "hero-title-2": "Welcome to Werebabo Wereda Land Office's Website!",
-    "hero-desc-2":
-      "Werebabo Wereda Land Office is a governmental institution situated in Bistima town, Werebabo Wereda, and is co-located within the premises of the Wereda's Agricultural Office.",
     "hero-title-3": "Welcome to Werebabo Wereda Land Office's Website!",
     "hero-desc-3":
       "Werebabo Wereda Land Office is a governmental institution situated in Bistima town, Werebabo Wereda, and is co-located within the premises of the Wereda's Agricultural Office.",
     "hero-title-4": "Welcome to Werebabo Wereda Land Office's Website!",
     "hero-desc-4":
-      "Werebabo Wereda Land Office is a governmental institution situated in Bistima town, Werebabo Wereda, and is co-located within the premises of the Wereda's Agricultural Office.",
-    "hero-title-5": "Welcome to Werebabo Wereda Land Office's Website!",
-    "hero-desc-5":
       "Werebabo Wereda Land Office is a governmental institution situated in Bistima town, Werebabo Wereda, and is co-located within the premises of the Wereda's Agricultural Office.",
     "vision-title": "Vision, Mission and Values",
     // VISION CONTENT
@@ -185,14 +179,22 @@ const translations = {
     "see-more": "See more",
     "see-less": "See less",
     "power-duty1":
-      "Prepare second-level land holding certificates to benefit the farmers.",
+      " Prepare and disseminate second-level land holding certificates to landholders within the Wereda.",
     "power-duty2": "Encourage farmers to voluntarily move to kebele centers.",
     "power-duty3": "Resolve land disputes.",
     "power-duty4":
-      "Ensure proper compensation is paid to displaced persons for development projects.",
+      " Carry out land valuation and determine compensation for expropriation.",
     "power-duty5": "Implement land proclamations and regulations.",
     "power-duty6":
-      "Ensure farmers use land according to the land use plan, among others.",
+      "Ensure that farmers utilize land in accordance with the designated land use plan.",
+    "power-duty7":
+      "Maintain and update the land registry during land transactions utilizing the NRLAIS system.",
+    "power-duty8":
+      " Approve land transfers, rentals, exchanges, and mortgages in compliance with applicable proclamations and regulations.",
+    "power-duty9":
+      " Facilitate the resettlement and rehabilitation of landholders displaced by development projects.",
+    "power-duty10":
+      "Provide public information, awareness programs, and advisory services to landholders to enhance their understanding of their rights and responsibilities.",
     // ORGANIZATIONAL STRUCTURE
     "structure-title": "Organizational Structure",
     "head-title": "Head",
@@ -213,7 +215,26 @@ const translations = {
     "kebele-all-commitees": "Committees",
     "kebele-all-landholde": "Land Holders",
     "news-title": "News",
-    "news-placeholder": "No news at the moment. Please check back later.",
+    "news-article-1-title":
+      "In 2017 fiscal year,8,290 Landholders Receive Second-Level Land Certificates",
+    "news-location": "Bistima",
+    "news-date": "September 29, 2018",
+    "news-source": "Werebabo Woreda Land Office",
+    "news-p1":
+      "The Werebabo Woreda Land Office has announced that a total of 8,290 landholders have successfully received second-level land certificates.",
+    "news-p2":
+      "Bistima - September 29, 2018,The Werebabo Woreda Land Office recently convened a forum to present its budget plan for the 2018 fiscal year and to assess the performance of the 2017 budget year.",
+    "news-p3":
+      "During this forum, it was reported that the office had established a target to distribute second-level landholding certificates to 5,828 landholders for the 2017 budget year. This initiative included the measurement of plots, the digitization of data, and the distribution of land certificates to landholders. The office surpassed its initial target by distributing certificates to 8,290 individuals.",
+    "news-p4":
+      "Furthermore, the forum addressed the critical issue of preventing illegal land encroachments. It was noted that 198.7 hectares of land were successfully reclaimed from 308 illegal encroachers. Despite the current security challenges that have been exploited for unlawful land grabbing, the office reaffirmed its commitment to holding all perpetrators accountable. Appropriate legal measures will be enforced once stability is restored.",
+    "news-p5":
+      "Additionally, strategic directions were established for the 2018 budget year to rectify identified shortcomings from 2017, enhance overall performance, and address good governance concerns raised by the community.",
+    "news-p6":
+      "In conclusion, certificates and recognition awards were presented to Kebele experts and members of the land committee who exhibited exemplary performance during the 2017 fiscal year.",
+    "news-photo-1-caption": "Moderators",
+    "news-photo-2-caption": " Attendees",
+    "news-photo-3-caption": "Recognition Award",
     "vacancy-title": "Vacancy",
     "vacancy-placeholder": "There are no open vacancies at this time.",
     "kebele-experts-title": "Kebele",
@@ -242,10 +263,10 @@ const translations = {
     "contact-location-desc":
       "Inside the Werababo Woreda Agriculture Office Compound.",
     "contact-location-link": "View on Map",
-    "contact-form-title": "Send us a Message!", // This ID is on the h3
-    "contact-form-name": "Name", // This ID is on the label
-    "contact-form-email": "Email", // This ID is on the label
-    "contact-form-subject": "Subject", // This ID is on the label
+    "contact-form-title": "Send us a Message!",
+    "contact-form-name": "Name",
+    "contact-form-email": "Email",
+    "contact-form-subject": "Subject",
     "contact-form-message": "Message",
     "contact-form-send": "Send Message",
     "contact-social-title": "Social Media",
@@ -273,19 +294,12 @@ const translations = {
     "hero-title-1": "እንኳን ወደ ወረባቦ ወረዳ መሬት ጽ/ቤት ድህረ ገጽ በሰላም መጡ!",
     "hero-desc-1":
       "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግስታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢስቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ነው።",
-    "hero-title-2": "እንኳን ወደ ወረባቦ ወረዳ መሬት ጽ/ቤት ድህረ ገጽ በሰላም መጡ!",
-    "hero-desc-2":
-      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግስታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢስቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ነው።",
     "hero-title-3": "እንኳን ወደ ወረባቦ ወረዳ መሬት ጽ/ቤት ድህረ ገጽ በሰላም መጡ!",
     "hero-desc-3":
       "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግስታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢስቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ  ነው።",
     "hero-title-4": "እንኳን ወደ ወረባቦ ወረዳ መሬት ጽ/ቤት ድህረ ገጽ በሰላም መጡ!",
     "hero-desc-4":
       "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግስታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢስቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ነው።",
-    "hero-title-5": "እንኳን ወደ ወረባቦ ወረዳ መሬት ጽ/ቤት ድህረ ገጽ በሰላም መጡ!",
-    "hero-desc-5":
-      "የወረባቦ ወረዳ መሬት ጽ/ቤት መንግስታዊ ተቋም ሲሆን በወረባቦ ወረዳ ቢስቲማ ከተማ ግብርና ጽ/ቤት ግቢ ውስጥ የሚገኝ ነው።",
-
     "vision-title": "ራዕይ፣ተልዕኮ እና እሴቶች",
     // VISION CONTENT
     "vision-heading": "ራዕይ",
@@ -410,12 +424,19 @@ const translations = {
     "power-title": "ስልጣን እና ተግባር",
     "see-more": "ተጨማሪ ይመልከቱ",
     "see-less": "በትንሽ ይመልከቱ",
-    "power-duty1": "በወረዳው የሁለተኛ ደረጃ የይዞታ ማረጋገጫ ካርታ በማዘጋጀት አርሶ አደሩን ተጠቃሚ ማድረግ፣",
+    "power-duty1":
+      "የሁለተኛ ደረጃ የይዞታ ማረጋገጫ ካርታ በማዘጋጀት ለወረዳው የመሬት ባለይዞታዎች ተደራሽ ማድረግ፣",
     "power-duty2": "አርሶ አደሩ በፈቃደኝነት ወደ ቀበሌ ማዕከል እንዲሰባሰብ ማድረግ፣",
     "power-duty3": "የመሬት ግጭቶችን መፍታት፣",
-    "power-duty4": "ለልማት ተነሽዎች ተገቢው ካሳ እንዲከፈላቸው ማድረግ፣",
+    "power-duty4": "ለልማት ተነሽዎች የመሬት ሓብት ዋጋ መገመትና ካሳ ማስላት፣",
     "power-duty5": "የመሬት አዋጆችን እና ደንቦችን ማሰተግበር፣",
-    "power-duty6": "አርሶ አደሩ በመሬት አጠቃቀም ዕቅዱ መሰረት እንዲጠቀም ማድረግ እና የመሳሰሉት ይገኙበታል፣",
+    "power-duty6": "አርሶ አደሮች መሬትን በተሰጠው የመሬት አጠቃቀም ዕቅድ መሰረት መጠቀማቸውን ማረጋገጥ፣",
+    "power-duty7": "የመሬት ግብይት ሲደረግ የመሬት ምዘገባውን ብሄራዊ የመሬት መረጃ ስርዓትን በመጠቀም ማዘመን፣",
+    "power-duty8":
+      "በአዋጅ እና ደንብ መሰረት የመሬት ዝውውሮችን፣ኪራዮችን፣ልውውጦችን እና የብድር መያዣዎችን ማጽደቅ፣",
+    "power-duty9": "በልማት ፕሮጀክቶች ምክንያት የሚፈናቀሉ ባለይዞታዎችን የመልሶ ማቋቋም ስራዎችን መስራት፣",
+    "power-duty10":
+      "የመሬት ባለይዞታዎች መብቶቻቸውን እና ግዴታዎቻቸውን በተመለከተ ያላቸውን ግንዛቤ ለማሳደግ የህዝብ መድረኮችን በማዘጋጀት የግንዛቤ ፈጠራዎችን መስራት፣",
     // ORGANIZATIONAL STRUCTURE
     "structure-title": "የተቋሙ አደረጃጀት",
     "head-title": "ሀላፊ",
@@ -436,7 +457,26 @@ const translations = {
     "kebele-all-commitees": "የመሬት ኮሚቴዎቸ",
     "kebele-all-landholde": "የመሬት ባለይዞታዎቸ",
     "news-title": "ዜና",
-    "news-placeholder": "በአሁኑ ሰዓት ምንም ዜና የለም። እባክዎ ቆይተው ተመልሰው ይሞክሩ።",
+    "news-article-1-title":
+      "በ2017 በጀት ኣመት 8,290 የመሬት ባለይዞታዎች የሁለተኛ የይዞታ ማረጋገጫ ካርታ ስርጭት ማግኘት ችለዋል",
+    "news-location": "ቢስቲማ",
+    "news-date": "መስከረም 29/, 2018",
+    "news-source": "ወረባቦ ወረዳ መሬት ጽ/ቤት",
+    "news-p1":
+      "የወረባቦ ወረዳ መሬት ጽ/ቤት ለ8290 ባለይዞታዎች ሁለተኛ የይዞታ ማረጋገጫ ካርታ ስርጭት ማድረግ መቻሉን ገለፀ።",
+    "news-p2":
+      "ቢስቲማ- መስከረም 29/2018,የወረባቦ ወረዳ መሬት ጽ/ቤት የ2017 በጀት ዓመት ዕቅድ አፈጻጸምና የ2018 በጀት ዓመት ዕቅድ ትውውቅ መድረክ አካሂዷል።",
+    "news-p3":
+      "በመድረኩ የመሬት ባለይዞታዎች የሁለተኛ የይዞታ ማረጋገጫ ካርታ ልኬታ፣ መረጃውን ድጅታላይዜሽን ማድረግ፣ እንድሁም ካርታውን ለባለ ይዞታዎች ስርጭት ማድረግ ስራዎችን በ2017 በጀት ለ5828 ባለ ይዞታዎች ሁለተኛ የይዞታ ማረጋገጫ ካርታ ስርጭት ለማድረግ ታቅዶ 8290 ስርጭት ማድረጉ ተገጿል።",
+    "news-p4":
+      "በሌላ በኩል ህገወጥ የመሬት ወረራን ከመከላከል ረገድ ከ308 ህገወጥ ወራሪዎች 198.7 ሄክታር መሬት ማስመለስ መቻሉን በመድረኩ ተነስቷል። ህገወጥነትንና የመሬት ወረራን በመከላከል ረገድ የፀጥታ ሁኔታውን እንደ ምቹ አጋጣሚ በመጠቀም የመንግስት መሬት ወረራዎች እየተፈፀሙ ያለ ቢሆንም ሰላሙ እየተስተካከለ ሲወጣ ሁሉም በህግ አግባብ እንደሚጠየቁና እንደሚሰራ ተገልጿል።",
+    "news-p5":
+      "በ2017 በጀት አመት የነበሩ ክፍተቶችን በማረም በ2018 በጀት አመት የተሻለ ስራዎችን በመስራት ማህበረሰቡ የሚያቀርባቸውን የመልካም አስተዳደር ችግሮች መቅረፍ እንደሚገባ አቅጣጫ ተቀምጧል።",
+    "news-p6":
+      "በመጨረሻም በ2017 በጀት አመት የተሻለ ስራ ለሰሩ የመሬት ኮሚቴና የቀበሌ ባለሙያዎች የእውቅና ሽልማትና ምስክር ወረቀት ተሰጥቷል።",
+    "news-photo-1-caption": "መድረክ መሪዎች",
+    "news-photo-2-caption": " ተሰብሳቢዎች",
+    "news-photo-3-caption": "የእውቅና ሽልማት",
     "vacancy-title": "ክፍት የስራ ቦታ",
     "vacancy-placeholder": "በአሁኑ ሰዓት ምንም ክፍት የሥራ ቦታ የለም።",
     "kebele-experts-title": "ቀበሌ",
