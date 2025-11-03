@@ -21,13 +21,12 @@ html {
 body {
   box-sizing: border-box;
   margin: 0;
-  font-family:Arial, Helvetica, sans-serif, Poppins;
+  font-family: english,"sans-serif";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--text-color);
   background: var(--background-light);
-  color: var(--text-color);
 }
 
 /* Header and Logo */
@@ -60,15 +59,10 @@ body {
   flex-direction: column;
   gap: 2px;
 }
-
 .office-name {
-  font-size: 1.3rem;
-  font-weight: 700;
   color: var(--primary-color);
 }
-
 .office-country {
-  font-size: 1rem;
   color: #888;
 }
 
@@ -262,7 +256,9 @@ nav ul li.dropdown {
   text-align: center;
 }
 
-#hero-title-1, #hero-title-3, #hero-title-4 {
+#hero-title-1,
+#hero-title-3,
+#hero-title-4 {
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.4;
@@ -273,7 +269,9 @@ nav ul li.dropdown {
   border-radius: 0;
 }
 
-#hero-desc-1, #hero-desc-3, #hero-desc-4 {
+#hero-desc-1,
+#hero-desc-3,
+#hero-desc-4 {
   margin-left: auto;
   margin-right: auto;
   padding-top: 60px;
@@ -351,9 +349,10 @@ nav ul li.dropdown {
   background: var(--background-light);
   padding: 48px 24px;
   margin: 40px auto;
-  max-width: 1200px;
+  max-width: 1000px;
   border-radius: 20px;
   box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
+  
 }
 .whoiswho-category-title {
   font-size: 2rem;
@@ -365,7 +364,6 @@ nav ul li.dropdown {
   text-align: left;
   letter-spacing: 1px;
 }
-
 
 .whoiswho-grid {
   display: grid;
@@ -382,7 +380,7 @@ nav ul li.dropdown {
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
-.team-head-info .who-photo{
+.team-head-info .who-photo {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -399,7 +397,7 @@ nav ul li.dropdown {
 .team-card {
   background: #f7faff;
   border-radius: 16px;
-  box-shadow: 0 6px 24px rgba(44, 62, 80, 0.10);
+  box-shadow: 0 6px 24px rgba(44, 62, 80, 0.1);
   padding: 32px 24px;
   display: flex;
   flex-direction: column;
@@ -418,7 +416,7 @@ nav ul li.dropdown {
 }
 
 .team-leader-info .who-photo {
-   width: 90px;
+  width: 90px;
   height: 90px;
   border-radius: 50%;
   object-fit: cover;
@@ -451,7 +449,11 @@ nav ul li.dropdown {
 }
 
 .see-more-btn {
-  background: linear-gradient(90deg, var(--primary-color) 0%, var(--highlight-color) 100%);
+  background: linear-gradient(
+    90deg,
+    var(--primary-color) 0%,
+    var(--highlight-color) 100%
+  );
   border: none;
   border-radius: 8px;
   padding: 12px 0;
@@ -471,7 +473,11 @@ nav ul li.dropdown {
 }
 
 .see-more-btn:hover {
-  background: linear-gradient(90deg, var(--highlight-color) 0%, var(--primary-color) 100%);
+  background: linear-gradient(
+    90deg,
+    var(--highlight-color) 0%,
+    var(--primary-color) 100%
+  );
   color: var(--primary-color);
   box-shadow: 0 4px 16px var(--accent-color);
 }
@@ -493,7 +499,7 @@ nav ul li.dropdown {
 }
 
 .who-card:hover {
- transform: translateY(-6px) scale(1.01);
+  transform: translateY(-6px) scale(1.01);
   box-shadow: 0 8px 24px var(--card-hover-shadow);
   border-color: var(--accent-color);
 }
@@ -539,132 +545,206 @@ nav ul li.dropdown {
   letter-spacing: 0.5px;
 }
 
-/* Organizational Structure Styling */
+/* organizational chart styles */
 .org-chart {
-  padding: 40px 20px;
+  padding: 24px 12px;
+  max-width: 100vw;               /* never wider than viewport */
+  box-sizing: border-box;
+  overflow-x: auto;               /* allow safe horizontal scrolling */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* central tree container */
+.tree-container {
+  width: min(1200px, 100%);       /* reasonable max width, shrinks on small screens */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 12px;
+}
+
+/* Head node — authoritative, uppercase */
+.head-node {
+  background: #0b3b72;                 /* deep ministry blue */
+  color: #ffffff;
+  padding: 18px 26px;
+  border-radius: 6px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  box-shadow: 0 6px 18px rgba(11,59,114,0.12);
+  border-left: 6px solid #ffd100;     /* official accent (gold) */
+  max-width: 720px;
   text-align: center;
 }
 
-.tree-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-.head-node {
-  background-color: var(--primary-color);
-  color: #fff;
-  padding: 15px 25px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-  position: relative;
-}
-
-.head-node::after {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2px;
-  height: 20px;
-  background-color: var(--highlight-color);
-  z-index: 1;
-}
-
+/* horizontal rail connecting head to branches — thin, solid, printable */
 .org-branches-container {
+ width: 100%;
   display: flex;
+  gap: 24px;
   justify-content: center;
+  align-items: flex-start;
+  padding-top: 12px;
   position: relative;
-  padding-top: 1px;
+  flex-wrap: wrap;                /* wrap columns to next row when needed */
+  box-sizing: border-box;
 }
-
 .org-branches-container::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
-  height: 4px;
-  background-color: var(--footer-background);
-  z-index: 0;
-
+  top: 34px;                           /* align under head center */
+  left: 6%;
+  right: 6%;
+  height: 2px;
+  background: #cfe1f6;                 /* light official line */
+  z-index: 5;
+  border-radius: 2px;
 }
 
+/* each branch column */
 .org-branch {
+ position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  position: relative;
-  min-width: 220px;
-  margin: 0 30px;
-  padding-top: 10px;
+  gap: 12px;
+  z-index: 10;
+  flex: 1 1 220px;                /* grow/shrink, base 220px */
+  min-width: 160px;               /* avoid becoming too narrow */
+  max-width: 320px;
+  box-sizing: border-box;
 }
 
+/* vertical stem from rail to team node */
 .org-branch::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 50%;
-  width: 1px;
-  height: 80%;
-  background-color: brown;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 28px;
+  background: #cfe1f6;
+  z-index: 8;
 }
 
+.org-branch::after {
+ content: "";
+  position: absolute;
+  top: 6px; /* slightly overlapping the rail */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 28px; /* short connector, no layout size change */
+  height: 3px;
+  border-radius: 2px;
+  background: #cfe1f6;
+  z-index: 9;
+  box-shadow: 0 1px 0 rgba(11,59,114,0.06);
+}
+
+/* team node — white card with navy accent stripe */
 .team-node {
-  background-color: var(--highlight-color); 
-   color: var(--heading-color);
-  padding: 15px 25px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  background: #ffffff;
+  border: 1px solid #dbeaf8;
+  padding: 14px 16px;
+  border-radius: 6px;
+  width: 100%;                    /* fill the flexible column width */
+  min-width: 0;                   /* allow flex item to shrink properly */
+  text-align: center;
+  color: #0b3b72;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(11,59,114,0.04);
   position: relative;
-  transition: background 0.3s;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+  outline: none;
+  border-left: 5px solid #0b3b72;
+  box-sizing: border-box;
+}
+.team-node:hover,
+.team-node:focus {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 26px rgba(11,59,114,0.08);
 }
 
+/* small connector bar immediately below team-node (visual only) */
 .team-node::after {
   content: "";
   position: absolute;
-  bottom: -20px;
   left: 50%;
   transform: translateX(-50%);
-  width: 1px;
-  height: 10px;
-  background-color: var(--highlight-color);
-}
-.team-node:hover {
-  background-color: var(--highlight-color);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  bottom: -18px;
+  width: 2px;
+  height: 18px;
+  background: #cfe1f6;
+  z-index: 6;
 }
 
+/* children list (kebeles / experts) — compact and legible */
 .org-sub-branches-container {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 15px;
-  position: relative;
+  gap: 10px;
+  align-items: center;
+  box-sizing: border-box;
 }
 
+/* each child item with a thin line up to the parent */
 .org-sub-branches-container li {
-  background-color: #fff;
-  padding: 10px 15px;
+   position: relative;
+  background: #ffffff;
+  border: 1px solid #eef6fb;
+  padding: 8px 12px;
+  min-width: 160px;
   border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border: 1px solid yellowgreen;
+  color: #0b3b72;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(11,59,114,0.03);
+}
 
+/* vertical connector from parent to child item */
+.org-sub-branches-container li::before {
+  content: "";
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 18px;
+  background: #cfe1f6;
 }
-.org-sub-branches-container li:hover {
-  background-color: #f0f8ff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+/* horizontal connector between multiple children (drawn from parent area) */
+.org-sub-branches-container::after {
+  /* only decorative: thin short rail to visually group children */
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: #eef6fb;
+  z-index: 3;
+  border-radius: 1px;
 }
+.org-sub-branches-container li::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 3px;
+  border-radius: 2px;
+  background: #cfe1f6;
+  z-index: 7;
+}
+
 
 .contact-container {
   display: flex;
@@ -770,7 +850,8 @@ a#contact-email-address {
   border-radius: 8px;
   color: var(--link-color);
   text-decoration: none;
-  transition: transform 150ms ease, box-shadow 150ms ease, background 150ms ease, color 150ms ease;
+  transition: transform 150ms ease, box-shadow 150ms ease, background 150ms ease,
+    color 150ms ease;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -792,13 +873,14 @@ a#contact-email-address.is-clicked {
 /* ensure visible keyboard focus */
 a#contact-phone-number:focus,
 a#contact-email-address:focus {
-  box-shadow: 0 0 0 3px rgba(26, 62, 139, 0.12), 0 8px 20px rgba(26, 62, 139, 0.08);
+  box-shadow: 0 0 0 3px rgba(26, 62, 139, 0.12),
+    0 8px 20px rgba(26, 62, 139, 0.08);
 }
 /* Generic Sections */
 #vision,
 #power,
 #manuals,
-#news,
+#media,
 #vacancy,
 #forms {
   background: #fff;
@@ -923,7 +1005,11 @@ footer {
     margin-bottom: 24px;
     font-size: 1.8rem;
   }
-  #hero-title-1, #hero-title-2, #hero-title-3, #hero-title-4, #hero-title-5 {
+  #hero-title-1,
+  #hero-title-2,
+  #hero-title-3,
+  #hero-title-4,
+  #hero-title-5 {
     margin-bottom: 24px;
     font-size: 1.8rem;
   }
@@ -932,7 +1018,7 @@ footer {
     grid-template-columns: 1fr;
     gap: 18px;
   }
-.team-card {
+  .team-card {
     padding: 18px 8px;
     gap: 16px;
   }
@@ -956,40 +1042,76 @@ footer {
     width: 200px;
     height: 100vh;
     padding-top: 50px;
-    z-index: 2;
+    z-index: 190;
     transform: translateX(100%);
     transition: transform 0.5s ease-in-out;
     display: block;
   }
   .nav-menu.is-open {
-    transform: translateX(0);
+  transform: translateX(0) !important;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  z-index: 999;
   }
   .nav-menu li {
     display: block;
     margin: 25px;
   }
-  #close-menu-btn {
-    position: absolute;
-    top: 25px;
-    left: 25px;
+  /* show mobile menu icons */
+  #open-menu-btn {
+    display: block;
+    font-size: 26px;
+    color: var(--primary-color);
     cursor: pointer;
+    margin-left: 12px;
+    z-index: 190;
+  }
+
+  #close-menu-btn {
+    display: block;
+    font-size: 26px;
+    color: var(--primary-color);
+    cursor: pointer;
+    z-index: 210;
   }
 
   .org-branches-container {
     flex-direction: column;
-    align-items: center;
-    padding-top: 0;
+    gap: 20px;
+    padding-top: 8px;
   }
-  .org-branches-container::before {
-    display: none;
-  }
-  .org-branch {
-    margin: 20px 0;
-  }
-  .org-branch::before {
-   display: none;
+  .org-branches-container::before { display: none; }
+  .org-branch { width: 100%; align-items: center; }
+  .team-node { width: 92%; border-left-width: 4px; }
+  .team-node::after { display: none; }
+  .org-sub-branches-container { width: 92%; }
+  .org-sub-branches-container li { width: 100%; }
+}
 
+/* accessibility: visible focus ring, reduce motion preference respected */
+.team-node:focus {
+  box-shadow: 0 0 0 3px rgba(11,59,114,0.12), 0 8px 20px rgba(11,59,114,0.06);
+}
+@media (prefers-reduced-motion: reduce) {
+  .team-node,
+  .org-branch,
+  .org-sub-branches-container li { transition: none !important; transform: none !important; }
+}
+
+/* print: clean, monochrome, no decorative lines */
+@media print {
+  .org-chart, .tree-container, .head-node, .team-node, .org-sub-branches-container li {
+    box-shadow: none !important;
+    background: #fff !important;
+    color: #000 !important;
+    border-left: 4px solid #000 !important;
   }
+  .org-branches-container::before,
+  .org-branch::before,
+  .team-node::after,
+  .org-sub-branches-container::after,
+  .org-sub-branches-container li::before { display: none !important; }
   .contact-container {
     grid-template-columns: 1fr;
     gap: 40px;

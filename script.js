@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const translations = {
   en: {
-    "site-title": "Land Office",
+    "site-title": "Werebabo Wereda Land Office",
     "office-name": "Werebabo Wereda Land Office",
     "office-country": "South Wollo, Ethiopia",
     "nav-home": "Home",
@@ -214,6 +214,7 @@ const translations = {
     "kebele-all-executor": "Executors",
     "kebele-all-commitees": "Committees",
     "kebele-all-landholde": "Land Holders",
+    "nav-media": "Media",
     "news-title": "News",
     "news-article-1-title":
       "In 2017 fiscal year,8290 Landholders Receive Second-Level Land Certificates",
@@ -275,7 +276,7 @@ const translations = {
     "footer-copyright": "&copy; 2018 Werebabo Woreda Land Office",
   },
   am: {
-    "site-title": "መሬት ጽ/ቤት",
+    "site-title": "የወረባቦ ወረዳ መሬት ጽ/ቤት",
     "office-name": "የወረባቦ ወረዳ መሬት ጽ/ቤት",
     "office-country": "ደቡብ ወሎ ኢትዮጵያ",
     "nav-home": "መነሻ",
@@ -456,6 +457,7 @@ const translations = {
     "kebele-all-executor": "ፈጻሚዎች",
     "kebele-all-commitees": "የመሬት ኮሚቴዎቸ",
     "kebele-all-landholde": "የመሬት ባለይዞታዎቸ",
+    "nav-media": "ሚድያ",
     "news-title": "ዜና",
     "news-article-1-title":
       "በ2017 በጀት ኣመት 8,290 የመሬት ባለይዞታዎች የሁለተኛ የይዞታ ማረጋገጫ ካርታ ስርጭት ማግኘት ችለዋል",
@@ -627,7 +629,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // --- Page Navigation Logic ---
   const heroSection = document.getElementById("home");
   const dynamicPageSections = document.querySelectorAll(".page-section");
-  const staticPageSections = document.querySelectorAll("#whoiswho, #contact");
+  // Treat #power as a static section so it is visible on the home screen by default
+  const staticPageSections = document.querySelectorAll("#contact, #power");
   const navSectionLinks = document.querySelectorAll(
     'nav a[href^="#"]:not([href="#"])'
   );
@@ -666,16 +669,20 @@ document.addEventListener("DOMContentLoaded", () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     } else {
       heroSection.style.display = "none";
-      // If the target is a dynamic section, show it and hide others.
-      if (targetElement.classList.contains("page-section")) {
+      // Decide based on explicit static list instead of only class
+      const isStaticTarget =
+        Array.from(staticPageSections).includes(targetElement);
+
+      if (!isStaticTarget && targetElement.classList.contains("page-section")) {
+        // dynamic section -> hide statics, show only the dynamic target
         staticPageSections.forEach(
           (section) => (section.style.display = "none")
         );
-        dynamicPageSections.forEach((section) => {
-          section.classList.toggle("active", section === targetElement);
-        });
+        dynamicPageSections.forEach((section) =>
+          section.classList.toggle("active", section === targetElement)
+        );
       } else {
-        // If the target is a static section, just hide all dynamic ones.
+        // static section (or not a page-section) -> show statics, hide dynamics
         staticPageSections.forEach(
           (section) => (section.style.display = "block")
         );
